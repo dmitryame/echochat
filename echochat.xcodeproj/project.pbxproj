@@ -18,6 +18,7 @@
 		322AF46A0F79809E00C591EC /* ConversationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 322AF4670F79809E00C591EC /* ConversationController.m */; };
 		322AF46B0F79809E00C591EC /* ConversationListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 322AF4690F79809E00C591EC /* ConversationListController.m */; };
 		32C89CD20F796103000A143D /* ConversationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32C89CD10F796103000A143D /* ConversationController.xib */; };
+		CAE1E5230F79867200182BE9 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CAE1E5220F79867200182BE9 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		322AF4690F79809E00C591EC /* ConversationListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversationListController.m; sourceTree = "<group>"; };
 		32C89CD10F796103000A143D /* ConversationController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConversationController.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAE1E5220F79867200182BE9 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CAE1E5220F79867200182BE9 /* icon.png */,
 				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				32C89CD10F796103000A143D /* ConversationController.xib */,
@@ -165,6 +168,7 @@
 				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
 				32C89CD20F796103000A143D /* ConversationController.xib in Resources */,
 				322AF4020F797BE800C591EC /* ConversationView.xib in Resources */,
+				CAE1E5230F79867200182BE9 /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
