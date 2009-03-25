@@ -69,6 +69,8 @@
     [conversations reloadData];
 }
 
+// UITableView delegate
+
 - (void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath
 {
     // ...
@@ -111,10 +113,6 @@
 }
 
 // Data manipulation - reorder / moving support
-
-/*- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)sourceIndexPath toIndexPath:(NSIndexPath *)destinationIndexPath
- {
- }*/
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -164,6 +162,8 @@ NSString *kCCell = @"CCELL";
     return [list count];
 }
 
+// Properties
+
 - (NSMutableArray*)list
 {
     return list;
@@ -178,6 +178,8 @@ NSString *kCCell = @"CCELL";
     
     [conversations reloadData];
 }
+
+// Actions
 
 - (IBAction)editConversations:(id)sender
 {
