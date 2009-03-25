@@ -12,16 +12,16 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
-		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
 		322AF3FE0F797BBA00C591EC /* ConversationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 322AF3FD0F797BBA00C591EC /* ConversationViewController.m */; };
-		322AF4020F797BE800C591EC /* ConversationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 322AF4010F797BE800C591EC /* ConversationView.xib */; };
 		322AF46A0F79809E00C591EC /* ConversationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 322AF4670F79809E00C591EC /* ConversationController.m */; };
 		322AF46B0F79809E00C591EC /* ConversationListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 322AF4690F79809E00C591EC /* ConversationListController.m */; };
-		32C89CD20F796103000A143D /* ConversationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32C89CD10F796103000A143D /* ConversationController.xib */; };
-		32CD75770F7A2A4A00B46E71 /* SettingsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32CD75760F7A2A4A00B46E71 /* SettingsController.xib */; };
 		32CD757C0F7A2A5300B46E71 /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CD757B0F7A2A5300B46E71 /* SettingsController.m */; };
 		32CD75CE0F7A2FCA00B46E71 /* EditCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CD75CD0F7A2FCA00B46E71 /* EditCell.m */; };
-		32CD75DB0F7A31A000B46E71 /* EditCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32CD75DA0F7A31A000B46E71 /* EditCell.xib */; };
+		32CD76F20F7A437500B46E71 /* ConversationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32CD76EE0F7A437500B46E71 /* ConversationController.xib */; };
+		32CD76F30F7A437500B46E71 /* ConversationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32CD76EF0F7A437500B46E71 /* ConversationView.xib */; };
+		32CD76F40F7A437500B46E71 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32CD76F00F7A437500B46E71 /* MainWindow.xib */; };
+		32CD76F50F7A437500B46E71 /* SettingsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32CD76F10F7A437500B46E71 /* SettingsController.xib */; };
+		32CD76F70F7A439300B46E71 /* EditCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32CD76F60F7A439300B46E71 /* EditCell.xib */; };
 		CAE1E5230F79867200182BE9 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CAE1E5220F79867200182BE9 /* icon.png */; };
 /* End PBXBuildFile section */
 
@@ -33,22 +33,22 @@
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28A0AB4B0D9B1048005BE974 /* echochat_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = echochat_Prefix.pch; sourceTree = "<group>"; };
-		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = ../MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		322AF3FC0F797BBA00C591EC /* ConversationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversationViewController.h; sourceTree = "<group>"; };
 		322AF3FD0F797BBA00C591EC /* ConversationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversationViewController.m; sourceTree = "<group>"; };
-		322AF4010F797BE800C591EC /* ConversationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ConversationView.xib; path = ../ConversationView.xib; sourceTree = "<group>"; };
 		322AF4660F79809E00C591EC /* ConversationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversationController.h; sourceTree = "<group>"; };
 		322AF4670F79809E00C591EC /* ConversationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversationController.m; sourceTree = "<group>"; };
 		322AF4680F79809E00C591EC /* ConversationListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversationListController.h; sourceTree = "<group>"; };
 		322AF4690F79809E00C591EC /* ConversationListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversationListController.m; sourceTree = "<group>"; };
-		32C89CD10F796103000A143D /* ConversationController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ConversationController.xib; path = ../ConversationController.xib; sourceTree = "<group>"; };
-		32CD75760F7A2A4A00B46E71 /* SettingsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SettingsController.xib; path = ../SettingsController.xib; sourceTree = "<group>"; };
 		32CD757A0F7A2A5300B46E71 /* SettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsController.h; sourceTree = "<group>"; };
 		32CD757B0F7A2A5300B46E71 /* SettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsController.m; sourceTree = "<group>"; };
 		32CD75CC0F7A2FCA00B46E71 /* EditCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditCell.h; sourceTree = "<group>"; };
 		32CD75CD0F7A2FCA00B46E71 /* EditCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditCell.m; sourceTree = "<group>"; };
-		32CD75DA0F7A31A000B46E71 /* EditCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditCell.xib; sourceTree = "<group>"; };
+		32CD76EE0F7A437500B46E71 /* ConversationController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ConversationController.xib; path = Views/ConversationController.xib; sourceTree = "<group>"; };
+		32CD76EF0F7A437500B46E71 /* ConversationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ConversationView.xib; path = Views/ConversationView.xib; sourceTree = "<group>"; };
+		32CD76F00F7A437500B46E71 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = Views/MainWindow.xib; sourceTree = "<group>"; };
+		32CD76F10F7A437500B46E71 /* SettingsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SettingsController.xib; path = Views/SettingsController.xib; sourceTree = "<group>"; };
+		32CD76F60F7A439300B46E71 /* EditCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = EditCell.xib; path = Views/EditCell.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAE1E5220F79867200182BE9 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,11 +137,11 @@
 		32CD75890F7A2D0600B46E71 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				322AF4010F797BE800C591EC /* ConversationView.xib */,
-				32C89CD10F796103000A143D /* ConversationController.xib */,
-				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
-				32CD75760F7A2A4A00B46E71 /* SettingsController.xib */,
-				32CD75DA0F7A31A000B46E71 /* EditCell.xib */,
+				32CD76F60F7A439300B46E71 /* EditCell.xib */,
+				32CD76EE0F7A437500B46E71 /* ConversationController.xib */,
+				32CD76EF0F7A437500B46E71 /* ConversationView.xib */,
+				32CD76F00F7A437500B46E71 /* MainWindow.xib */,
+				32CD76F10F7A437500B46E71 /* SettingsController.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -197,12 +197,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
-				32C89CD20F796103000A143D /* ConversationController.xib in Resources */,
-				322AF4020F797BE800C591EC /* ConversationView.xib in Resources */,
 				CAE1E5230F79867200182BE9 /* icon.png in Resources */,
-				32CD75770F7A2A4A00B46E71 /* SettingsController.xib in Resources */,
-				32CD75DB0F7A31A000B46E71 /* EditCell.xib in Resources */,
+				32CD76F20F7A437500B46E71 /* ConversationController.xib in Resources */,
+				32CD76F30F7A437500B46E71 /* ConversationView.xib in Resources */,
+				32CD76F40F7A437500B46E71 /* MainWindow.xib in Resources */,
+				32CD76F50F7A437500B46E71 /* SettingsController.xib in Resources */,
+				32CD76F70F7A439300B46E71 /* EditCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
